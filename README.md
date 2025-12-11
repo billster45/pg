@@ -13,3 +13,14 @@ This app is client side apps (no server or login required) powered by [PGLite](h
 - [x] Persistent Data
 - [x] Export query result
 - [ ] [Import Data](https://github.com/datawan-labs/pg/issues/6)
+
+## Deploying
+
+### GitHub Pages
+
+This is a static Vite app, so it can be deployed directly to GitHub Pages.
+
+- The workflow at `.github/workflows/pages.yml` builds and deploys on pushes to `main`.
+- In your repo settings → **Pages**, set **Source** to **GitHub Actions**.
+- If your default branch is not `main`, update the workflow trigger.
+- The build sets `BASE_URL=/<repo-name>/` so assets work under the Pages subpath. For custom domains or root hosting, build with `BASE_URL=/` or adjust `vite.config.ts`.
