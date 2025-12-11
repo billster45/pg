@@ -14,6 +14,11 @@ This app is client side apps (no server or login required) powered by [PGLite](h
 - [x] Export query result
 - [ ] [Import Data](https://github.com/datawan-labs/pg/issues/6)
 
+## Attribution
+
+The bundled Sakila sample database is derived from the Postgres port in `jOOQ/sakila` (BSD‑2‑Clause):
+`https://github.com/jOOQ/sakila/tree/main/postgres-sakila-db`.
+
 ## Deploying
 
 ### GitHub Pages
