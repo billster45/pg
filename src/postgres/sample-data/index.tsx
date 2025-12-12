@@ -8,6 +8,12 @@ export type SampleDataMeta<T extends SampleDatakey> = {
 
 export const SAMPLE_DATA: SampleDataMeta<SampleDatakey>[] = [
   {
+    key: "sakila",
+    name: "Sakila Database",
+    description:
+      "Postgres port of the Sakila film rental sample DB (large import).",
+  },
+  {
     key: "orders",
     name: "Order Database",
     description:
@@ -17,12 +23,6 @@ export const SAMPLE_DATA: SampleDataMeta<SampleDatakey>[] = [
     key: "schools",
     name: "Schools Database",
     description: "School management database with teachers and students data",
-  },
-  {
-    key: "sakila",
-    name: "Sakila Database",
-    description:
-      "Postgres port of the Sakila film rental sample DB (large import).",
   },
 ];
 
